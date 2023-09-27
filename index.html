@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- Material Icons Link -->
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous"
+    />
+
+    <!-- stylesheet -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+    />
+
+    <!-- script -->
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/script-name.js"></script>
+
+    <!-- from node_modules -->
+    <script src="node_modules/@material-tailwind/html@latest/scripts/ripple.js"></script>
+    
+    <!-- from cdn -->
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>    
+    <script>
+            const withMT = require("@material-tailwind/html/utils/withMT");
+            module.exports = withMT({
+            content: ["./index.html"],
+            theme: {
+                extend: {},
+            },
+            plugins: [],
+            });
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
   
-  <title>Frontend Mentor | Order summary card</title>
+    <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
 
@@ -21,10 +61,5 @@
 
   Proceed to Payment
   Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
