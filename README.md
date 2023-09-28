@@ -37,14 +37,15 @@ Users should be able to:
 - Body as container to be set at relative, flex, flex-col, and justify-center which vertically centers the content. 
   - Purple background. To make this full screen, height of body container is set to 100vh to be full screen. Because it is fullscreen, purple background will be full screen as well. 
   - Purple wave image. Due to relative class in body container, purple wave can be set at the top via css classses, absolute, top-0 and width fill to the size of screen width.
-- Card component is set with flex and flex-col to make all the content in column. Overflow is added to ensure image in card doesn't overflow. The contents are broken down into portions:
+- Card component is set with flex and flex-col to make all the content in column format. Overflow is added to ensure image in card doesn't overflow. The contents are broken down into portions:
   - Image header. 
- - Contents. This acts a container. It is set to be flex, flex-col so that all content is in a column. Gap is provided each content an equal space.
+  - Contents. This acts a container. It is set to be flex, flex-col so that all content is in a column. Gap is provided each content an equal space.
   - Title & Paragraph
   - Annual plan. This set to be flex and flex-row to make content in a row format.
   - Buttons. Both buttons has been given a hover effect according to the given images.
 - Footer component. This component is recycled and reused from previous challenges.
 - Once everything is done, I would finalise the project and check for any potential irregularities.
+  
 ### Built with
 
 - Semantic HTML5 markup
