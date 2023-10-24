@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jeresulovuo/order-summary-component)
+- Solution URL: [Github](https://github.com/chungvuiloong/order-summary-component)
 - Live Site URL: [Vercel](https://mrjays-order-summary-component.vercel.app/)
 
 ## My process
@@ -67,6 +67,5 @@ Using this summary component, I am hoing to incorporate it into my future projec
 
 ## Author
 
-- Website - [Jere Sulovuo/ MrJay's Simple Portfolio](https://mrjays-simple-portfolio.vercel.app/)
-- Github - [Jere Sulovuo (MrJay)](https://github.com/jeresulovuo)
-- Frontend Mentor - [@jirimicvl](https://www.frontendmentor.io/profile/jirimicvl)
+- Website - [MrJay's Simple Portfolio](https://mrjays-simple-portfolio.vercel.app/)
+- Github - [Jere / Chung Vui Loong](https://github.com/chungvuiloong)
